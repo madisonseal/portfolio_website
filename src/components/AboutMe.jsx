@@ -12,7 +12,7 @@ const AboutMe = () => {
             <div className="flex items-center gap-4 pb-4">
                 <img src={me} alt="Madison Seal" className="h-24 w-24 rounded-full flex-shrink-0 object-cover scale-130 border-4 border-white shadow-md"/>
                 <div>
-                    <h1 className="text-3xl font-bold bg-gradient-to-r from-black to-gray-600 bg-clip-text text-transparent">Madison Seal</h1>
+                    <h1 className="text-3xl font-bold bg-gradient-to-r from-black to-gray-600 bg-clip-text">Madison Seal</h1>
                     <ReactTyped className="text-bold" strings={["Self Proclaimed Creative Developer"]} typeSpeed={100}  />
                 </div>
             </div>

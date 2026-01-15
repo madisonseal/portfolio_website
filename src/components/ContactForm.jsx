@@ -26,7 +26,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="bg-pink-100 p-6 max-w-lg mx-auto rounded-lg shadow-md ">
+    <div className="bg-pink-100 p-4 sm:p-2 max-w-lg mx-auto rounded-lg shadow-md">
       <h2 className="text-xl font-semibold mb-2">Contact Me</h2>
       <p className="mb-6 text-gray-700">
         Want to get in contact? Say hi! Let me know.

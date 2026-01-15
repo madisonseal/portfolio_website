@@ -6,7 +6,7 @@ const Project = ({title, desc, stack, img, github}) => {
             </div>
             <h1 className="text-left text-xl font-semibold ml-4 mt-4">{title}</h1>
             <p className="text-left ml-4 mr-16">{desc}</p>
-            <div className="mt-4 flex gap-2 ml-4 mb-4">
+            <div className="mt-4 flex  flex-wrap gap-2 ml-4 mb-4 ">
                 {stack.map((tech, index) => (
                     <span className="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full dark:bg-blue-800 dark:text-blue-100" key={index}>{tech}</span>
                 ))}

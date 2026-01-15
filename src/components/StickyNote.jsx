@@ -79,7 +79,7 @@ const StickyNote = ({ title, info, color, defaultPosition }) => {
       style={{ background: color }}
     >
       <h3 className="text-lg lg:text-xl font-bold text-center">{title}</h3>
-      <p className="whitespace-pre-line text-sm lg:text-md text-left">{info}</p>
+      <p className="whitespace-pre-line text-sm lg:text-md text-center">{info}</p>
 
       <div className="absolute bottom-0 right-0 w-0 h-0 border-l-[20px] border-l-transparent border-b-[20px] border-b-gray-400/20"></div>
     </div>
