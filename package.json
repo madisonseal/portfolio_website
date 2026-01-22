@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://madisonseal.github.io/portfolio_website",
+  "homepage": "https://github.com/madisonseal/portfolio_website.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
